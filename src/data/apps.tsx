@@ -1,7 +1,7 @@
 import React from 'react';
 import { AppType } from '@/types/app';
 import { 
-  GameController, 
+  Gamepad2, 
   MessageSquare, 
   Music, 
   Film, 
@@ -13,7 +13,7 @@ export const apps: AppType[] = [
     id: 'steam',
     name: 'Steam',
     description: 'Платформа для игр, магазин и сообщество. Доступ к тысячам игр от AAA до инди.',
-    icon: <GameController className="w-8 h-8 text-blue-600" />,
+    icon: <Gamepad2 className="w-8 h-8 text-blue-600" />,
     size: '120 МБ'
   },
   {
